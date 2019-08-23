@@ -1,14 +1,14 @@
 import React from "react";
 
-const NumberButton = ({label, currentNum, setNumber}) => {
-   const updateNumber = () => {
-      setNumber(currentNum + label);
+const NumberButton = ({label, setNumber}) => {
+   const btnClick = () => {
+      setNumber(label);
    };
    
    return (
       <>
          {/* Display a button element rendering the data being passed down from the parent container on props */}
-         <button onClick={updateNumber}>{label}</button>
+         <button onClick={btnClick}>{label}</button>
       </>
    );
 };
