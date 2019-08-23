@@ -1,9 +1,9 @@
 import React from "react";
 
-const NumberButton = ({label, setNumber}) => {
+const NumberButton = ({label, value, setNumber}) => {
    const classList = (label === "0")? "number zero" : "number";
    const btnClick = () => {
-      setNumber(label);
+      setNumber(value);
    };
    
    return (
