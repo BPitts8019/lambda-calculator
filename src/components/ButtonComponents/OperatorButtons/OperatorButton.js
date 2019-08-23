@@ -1,6 +1,7 @@
 import React from "react";
 
 const OperatorButton = ({label, value, setOperation}) => {
+   const classList = "operator";
    const btnClick = () => {
       setOperation(value);
    };
@@ -8,7 +9,7 @@ const OperatorButton = ({label, value, setOperation}) => {
    return (
       <>
          {/* Display a button element rendering the data being passed down from the parent container on props */}
-         <button onClick={btnClick}>{label}</button>
+         <button className={classList} onClick={btnClick}>{label}</button>
       </>
    );
 };
