@@ -8,9 +8,9 @@
    height: 710px;
 }
 
-/* .container .logo-container {
-   margin-bottom: 17px;
-} */
+.container .logo-container {
+   margin-bottom: 20px;
+}
 .container .logo {
    height: 34px;
 }
@@ -20,6 +20,7 @@
    border-radius: 50px;
    color: white;
    font-size: 5.0rem;
+   margin-bottom: 30px;
    padding: 24px;
    text-align: right;
 }
@@ -32,24 +33,40 @@
    flex-flow: column wrap;
    justify-content: space-between;
 } */
-.App div>.number {
-   /* width: 300px;
-   height: 350px; */
 
-   display: flex;
-   flex-flow: row wrap;
-   justify-content: space-between;
-}
 
 .App button {
    border: none;
    border-radius: 50%;
    color: white;
    font-size: 3.2rem;
+   /* font-weight: bold; */
    height: 80px;
+   margin-bottom: 13px;
    width: 80px;
 
    box-shadow: 0 3px black;
+}
+
+.App .main-buttons {
+   width: 400px;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.App .specials-numbers>div {
+   width: 300px;
+
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-between;
+}
+
+.App .operators {
+   width: 80px;
+
+   display: flex;
 }
 
 .App .special {
