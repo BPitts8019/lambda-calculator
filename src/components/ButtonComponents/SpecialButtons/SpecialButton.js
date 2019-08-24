@@ -4,7 +4,7 @@ const SpecialButton = ({label, value, setSpecial}) => {
    const classList = "special";
    const btnClick = () => {
       // setSpecial(value);
-      console.log(`setSpecial(${value})`);
+      console.log(`Button (${label}): setSpecial(${value})`);
    };
 
    return (

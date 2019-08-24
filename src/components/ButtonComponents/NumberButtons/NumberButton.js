@@ -3,7 +3,8 @@ import React from "react";
 const NumberButton = ({label, value, setNumber}) => {
    const classList = (label === "0")? "number zero" : "number";
    const btnClick = () => {
-      setNumber(value);
+      // setNumber(value);
+      console.log(`Button (${label}): setNumber(${value})`);
    };
    
    return (

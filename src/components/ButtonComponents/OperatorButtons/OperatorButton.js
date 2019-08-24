@@ -3,7 +3,8 @@ import React from "react";
 const OperatorButton = ({label, value, setOperation}) => {
    const classList = "operator";
    const btnClick = () => {
-      setOperation(value);
+      // setOperation(value);
+      console.log(`Button (${label}): setOperation(${value})`);
    };
 
    return (

@@ -25,24 +25,16 @@
    text-align: right;
 }
 
-/* .App .buttons {
-   height: 400px;
-   width: 400px;
-
-   display: flex;
-   flex-flow: column wrap;
-   justify-content: space-between;
-} */
-
-
 .App button {
    border: none;
    border-radius: 50%;
    color: white;
+   cursor: pointer;
    font-size: 3.2rem;
    /* font-weight: bold; */
    height: 80px;
    margin-bottom: 13px;
+   outline: none;
    width: 80px;
 
    box-shadow: 0 3px black;
