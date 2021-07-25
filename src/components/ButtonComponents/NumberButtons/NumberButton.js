@@ -5,7 +5,7 @@ const NumberButton = ({ value }) => {
    return (
       <>
          {/* Display a button element rendering the data being passed down from the parent container on props */}
-         <Button className="button-num" char={value} value={value} />
+         <Button char={value} value={value} />
       </>
    );
 };
