@@ -1,7 +1,11 @@
 import React from "react";
 
-const Button = ({ className, label }) => {
-   return <button className={className}>{label}</button>;
+const Button = ({ className, char, value }) => {
+   return (
+      <button className={className} value={value}>
+         {char}
+      </button>
+   );
 };
 
 export default Button;
